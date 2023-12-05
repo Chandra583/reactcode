@@ -1,10 +1,14 @@
-
+import Life from "./Life"
+import Chai from "./chai"
 
 function App() {
 
 
   return (
-    <h1>Welcome to vite react project</h1>
+    <>
+      <Life />
+      <Chai />
+    </>
   )
 }
 
