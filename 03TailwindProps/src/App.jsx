@@ -5,6 +5,7 @@ import Card from './Component/Card'
 
 function App() {
 
+
   // let newObj = {
   //   name: "John",
   //   age: 30,
@@ -19,6 +20,7 @@ function App() {
       <h1 className='bg-green-400 text-black rounded-xl p-2 mb-5' >TailwindCss</h1>
       <Card myName="Chandra" />
       <Card myName="shekar" btnText="click messs :)" />
+
     </>
   )
 }
