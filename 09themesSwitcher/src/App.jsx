@@ -16,9 +16,7 @@ function App() {
     setThemeMode("light")
   }
 
-  //actual change in theme
-
-
+  //using useEffect for theme changer
   useEffect(() => {
     document.querySelector('html').classList.remove('light', 'dark')
     document.querySelector('html').classList.add(themeMode)
